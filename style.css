@@ -1,0 +1,29 @@
+.head{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidebar{
+    background-color: lightgray;
+    padding: 3px;
+}
+.weather{
+    background-color: white;
+}
+.headCard{
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    margin: 5px;
+}
+.date,.temper,.humidity,.pic{
+    text-align: center;
+}
+.dayOne,.dayTwo,.dayThree,.dayFour,.dayFive{
+    background-color: blue;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: right;
+}

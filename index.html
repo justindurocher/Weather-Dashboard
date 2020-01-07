@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row head">
+            <div class="col-md-12">Weather Dashboard</div>
+        </div>
+        <div class="row body">
+            <div class="col-md-2 sidebar">
+                <div class="row city">
+                    <div class="col-md-12 citySearch">
+                    Search for City
+                    </div>
+                </div>
+                <div class="row inputCity">
+                    <div class="col-md-12 input">
+                        <form class="example" action="">
+                            <input type="text" placeholder="Search.." name="search" class="inputTown">
+                            <button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 weather">
+                <div class="container headCard">
+                    <div class="row cityName">City Name and Date</div>
+                    <div class="row temp">Temp</div>
+                    <div class="row humid">Humidity</div>
+                    <div class="row wind">Wind speed</div>
+                    <div class="row uv">UV Index</div>
+                </div>
+                <div class="container fiveDay">
+                    <div class="row">Five Day Forcast:</div>
+                    <div class="row forcast">
+                        <div class="col-md-2 dayOne">
+                            <div class="row dateOne">
+                                <div class="col-md-12 date">Date</div>
+                            </div>
+                            <div class="row pictureOne">
+                                <div class="col-md-12 pic">IMG</div>
+                            </div>
+                            <div class="row temperOne">
+                                <div class="col-md-12 temper">Temp</div>
+                            </div>
+                            <div class="row humidityOne">
+                                <div class="col-md-12 humidity">Humidity</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 dayTwo">
+                            <div class="row dateTwo">
+                                <div class="col-md-12 date">Date</div>
+                            </div>
+                            <div class="row pictureTwo">
+                                <div class="col-md-12 pic">IMG</div>
+                            </div>
+                            <div class="row temperTwo">
+                                <div class="col-md-12 temper">Temp</div>
+                            </div>
+                            <div class="row humidityTwo">
+                                <div class="col-md-12 humidity">Humidity</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 dayThree">
+                            <div class="row date dateThree">
+                                <div class="col-md-12 date">Date</div>
+                            </div>
+                            <div class="row pic pictureThree">
+                                <div class="col-md-12 pic">IMG</div>
+                            </div>
+                            <div class="row temper temperThree">
+                                <div class="col-md-12 temper">Temp</div>
+                            </div>
+                            <div class="row humidity humidityThree">
+                                <div class="col-md-12 humidity">Humidity</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 dayFour">
+                            <div class="row dateFour">
+                                <div class="col-md-12 date">Date</div>
+                            </div>
+                            <div class="row pictureFour">
+                                <div class="col-md-12 pic">IMG</div>
+                            </div>
+                            <div class="row temperFour">
+                                <div class="col-md-12 temper">Temp</div>
+                            </div>
+                            <div class="row humidityFour">
+                                <div class="col-md-12 humidity">Humidity</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 dayFive">
+                            <div class="row dateFive">
+                                <div class="col-md-12 date">Date</div>
+                            </div>
+                            <div class="row pictureFive">
+                                <div class="col-md-12 pic">IMG</div>
+                            </div>
+                            <div class="row temperFive">
+                                <div class="col-md-12 temper">Temp</div>
+                            </div>
+                            <div class="row humidityFive">
+                                <div class="col-md-12 humidity">Humidity</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
