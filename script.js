@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     var month = currentDate.getMonth() + 1;
 
-    var day = currentDate.getDay();
+    var day = currentDate.getDay()+5;
 
     var year = currentDate.getFullYear();
 
