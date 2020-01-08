@@ -5,6 +5,12 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.search{
+    background-color: white;
+    margin: 2px;
+    text-align: center;
+}
+
 .sidebar{
     background-color: lightgray;
     padding: 3px;
@@ -16,7 +22,29 @@
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
     border-left: 2px solid lightgray;
+    height: 150px;
     margin: 5px;
+}
+.cityName{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 5px;
+}
+.temp{
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.humid{
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.wind{
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.uv{
+    margin-left: 10px;
 }
 .date,.temper,.humidity,.pic{
     text-align: center;
@@ -26,4 +54,9 @@
     margin: 5px;
     border-radius: 20px;
     text-align: right;
+}
+.search{
+    width: 180px;
+    background-color: white;
+    color: black;
 }

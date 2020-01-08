@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Weather Dashboard</title>
 </head>
 <body>
@@ -30,15 +31,15 @@
                           </form>
                     </div>
                 </div>
-                <div class="row searchData"></div>
+                <div id="citys"></div>
             </div>
             <div class="col-md-10 weather">
                 <div class="container headCard">
-                    <div class="row cityName">City Name and Date</div>
-                    <div class="row temp">Temp</div>
-                    <div class="row humid">Humidity</div>
-                    <div class="row wind">Wind speed</div>
-                    <div class="row uv">UV Index</div>
+                    <div class="row cityName"></div>
+                    <div class="row temp"></div>
+                    <div class="row humid"></div>
+                    <div class="row wind"></div>
+                    <div class="row uv"></div>
                 </div>
                 <div class="container fiveDay">
                     <div class="row">Five Day Forcast:</div>
