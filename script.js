@@ -50,13 +50,49 @@ $(document).ready(function(){
 
                     var wind = response.wind.speed;
 
+                    var lon = response.coord.lon;
+
+                    var lat = response.coord.lat;
+
+                    var queryUV = "http://api.openweathermap.org/data/2.5/uvi?appid=a1c5e53a2860792d2e8a9ef977e2d3ed&lat=" + lat + "&lon=" + lon;
+
                     $(".cityName").text(name + " " + formattedDate);
 
-                    $(".temp").text("Temperature: " + temp + "F")
+                    $(".temp").text("Temperature: " + temp + String.fromCharCode(176) + "F");
 
                     $(".humid").text("Humidity: " + humidity + "%");
 
                     $(".wind").text("Wind Speed: " + wind + "mph");
+
+                    $(".dateOne").text(formattedDate);
+
+                    $(".dateTwo").text(month + "/" + (day+1) + "/" + year);
+
+                    $(".dateThree").text(month + "/" + (day+2) + "/" + year);
+
+                    $(".dateFour").text(month + "/" + (day+3) + "/" + year);
+
+                    $(".dateFive").text(month + "/" + (day+4) + "/" + year);
+
+                    $(".temperOne").text(temp + String.fromCharCode(176) + "F");
+
+                    $(".humidityOne").text(humidity + " %");
+
+                    $.ajax({
+
+                        url : queryUV,
+                        
+                        method: "GET"
+
+                    }).then(function(response){
+
+                        console.log(response);
+
+                        var uv = response.value
+
+                        $(".uv").text("UV Index: " + uv);
+
+                    })
                 })
 
             })

@@ -55,6 +55,7 @@
     margin: 5px;
     border-radius: 20px;
     text-align: right;
+    height: 100px;
 }
 .search{
     width: 180px;
