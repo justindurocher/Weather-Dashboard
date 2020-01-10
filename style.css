@@ -22,7 +22,7 @@
     border-top: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
     border-left: 2px solid lightgray;
-    height: 150px;
+    height: 200px;
     margin: 5px;
 }
 .cityName{
@@ -53,9 +53,8 @@
 .dayOne,.dayTwo,.dayThree,.dayFour,.dayFive{
     background-color: blue;
     margin: 5px;
-    border-radius: 20px;
     text-align: right;
-    height: 100px;
+    height: 130px;
 }
 .search{
     width: 180px;
