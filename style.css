@@ -2,8 +2,9 @@
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: larger;
 }
 .search{
     background-color: white;
@@ -60,4 +61,8 @@
     width: 180px;
     background-color: white;
     color: black;
+}
+.red{
+    background-color: red;
+    color: white;
 }

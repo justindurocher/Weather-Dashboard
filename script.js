@@ -112,7 +112,9 @@ $(document).ready(function(){
 
                     var uv = response.value
 
-                    $(".uv").text("UV Index: " + uv);
+                    $(".uv").addClass("red");
+
+                    $(".uv").html("UV Index: " + uv);
 
                     var queryForcast = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityPlace + "&apikey=a1c5e53a2860792d2e8a9ef977e2d3ed";
 
@@ -314,6 +316,8 @@ $(document).ready(function(){
                         var uv = response.value
 
                         $(".uv").text("UV Index: " + uv);
+
+                        $(".uv").addClass("red");
 
                         var queryForcast = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityPlace + "&apikey=a1c5e53a2860792d2e8a9ef977e2d3ed";
 
