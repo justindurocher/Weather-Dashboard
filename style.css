@@ -4,16 +4,17 @@
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-size: larger;
+    font-size: 30px;
+    font-weight: bold;
 }
 .search{
     background-color: white;
-    margin: 2px;
-    text-align: center;
+    margin: 0;
+    text-align: left;
 }
 
 .sidebar{
-    background-color: lightgray;
+    background-color: #eceff1;
     padding: 3px;
 }
 .weather{
@@ -52,7 +53,7 @@
     text-align: center;
 }
 .dayOne,.dayTwo,.dayThree,.dayFour,.dayFive{
-    background-color: blue;
+    background-color: #0066ff;
     margin: 5px;
     text-align: right;
     height: 130px;

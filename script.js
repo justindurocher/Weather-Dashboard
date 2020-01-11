@@ -18,7 +18,7 @@ $(document).ready(function(){
 
         var startButton = localStorage.getItem("City");
 
-        var newButton = $("<button>").text(startButton);
+        newButton = $("<button>").text(startButton);
 
         newButton.attr("data-name", startButton);
 
@@ -112,9 +112,11 @@ $(document).ready(function(){
 
                     var uv = response.value
 
-                    $(".uv").addClass("red");
+                    $(".uv").text("UV Index: ");
 
-                    $(".uv").html("UV Index: " + uv);
+                   var insert =  $("<div>")
+
+                    insert.text
 
                     var queryForcast = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityPlace + "&apikey=a1c5e53a2860792d2e8a9ef977e2d3ed";
 
@@ -219,7 +221,7 @@ $(document).ready(function(){
 
             var tag = $("<button>").text(cityList[i]);
 
-            localStorage.setItem("City",cityList[i]);
+            localStorage.setItem("City", cityList[i]);
 
             tag.attr("data-name",cityList[i]);
 
