@@ -6,11 +6,13 @@ $(document).ready(function(){
 
     var month = currentDate.getMonth() + 1;
 
-    var day = currentDate.getDay()+5;
+    var day = currentDate.getDate();
 
     var year = currentDate.getFullYear();
 
     var formattedDate = month + "/" + day + "/" + year;
+
+    console.log(formattedDate);
 
     rememberTag();
 
