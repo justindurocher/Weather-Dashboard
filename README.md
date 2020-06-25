@@ -14,7 +14,6 @@
 
 <img src="./img/weather.png" alt="screenshot">
 
-
 <h1>Contributors</h1>
 
 <h3>Frontend and Backend</h3>
