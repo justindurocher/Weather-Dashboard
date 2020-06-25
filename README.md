@@ -10,6 +10,8 @@
 
 <p>The purpose of this application is for users who want to check either what the current weather is of a certain city, or check up on the five day forecast is predicted to be. There is a search bar located in the top left corner where the user can search up as many as 10 cities that will keep popping up as blocks under the search bar. Once the user clicks on one of those blocks, the weather data will be displayed on the dashboard to the right.</p>
 
+<br> 
+
 <img src="./img/weather.png" alt="screenshot">
 
 
