@@ -8,7 +8,7 @@
 
 <h1>Usage</h1>
 
-<p>The purpose of this application is for users who want to play with their favorite players on their team. Or for users who just want to relax and play some games.The first page will show a roster of teams. Pick five players from any team. Once five players are picked, you will be directed to a game where you try to do as many free throws as you can. What you will see in this application is an unfinished product of the application. There is till more work that needs to be done.</p>
+<p>The purpose of this application is for users who want to check either what the current weather is of a certain city, or check up on the five day forecast is predicted to be. There is a search bar located in the top left corner where the user can search up as many as 10 cities that will keep popping up as blocks under the search bar. Once the user clicks on one of those blocks, the weather data will be displayed on the dashboard to the right.</p>
 
 <img src="./img/weather.png" alt="screenshot">
 
